@@ -1,0 +1,7 @@
+## Interface: 80300
+## Title: NeatPlates: Torple
+## Author: Torple
+## Version: 1.0.1
+## Dependencies: NeatPlates, NeatPlatesHub
+
+NeatPlates_Torple.lua
