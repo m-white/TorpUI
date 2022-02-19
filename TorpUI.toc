@@ -1,0 +1,14 @@
+## Interface: 90105
+## Title: TorpUI
+## Author: Torple
+## Version: 1.0.0
+## SavedVariables: TorpDb
+## Dependencies: BigWigs, Details, ElvUI, MRT, NeatPlates, NeatPlates_Torple, OmniCD, WeakAuras
+
+init.lua
+
+AddOns/AddOn.lua
+AddOns/Details.lua
+AddOns/ElvUi.lua
+
+prompt.lua
