@@ -9,6 +9,10 @@ function T_AddOn:new(o)
   return o
 end
 
+function T_AddOn:IsLoaded()
+  return IsAddOnLoaded(self.name)
+end
+
 function T_AddOn:Apply()
   return
 end
