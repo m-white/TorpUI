@@ -3,7 +3,7 @@
 ## Author: Torple
 ## Version: 1.0.0
 ## SavedVariables: TorpDb
-## Dependencies: BigWigs, Details, ElvUI, MRT, NeatPlates, NeatPlates_Torple, OmniCD, WeakAuras
+## OptionalDeps: BigWigs, Details, ElvUI, MRT, NeatPlates, NeatPlates_Torple, OmniCD, WeakAuras
 
 init.lua
 
