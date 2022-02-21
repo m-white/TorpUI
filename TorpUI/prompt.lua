@@ -13,7 +13,9 @@ function frame:OnEvent(event, name)
   end
 
   for key, addOn in pairs(TorpUi.AddOns) do
-    addOn:Prompt()
+    if (addOn:IsLoaded()) then
+      addOn:Prompt()
+    end
   end
 
   TorpDb.versionApplied = TorpUi.VERSION

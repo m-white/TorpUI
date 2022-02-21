@@ -1,6 +1,9 @@
 local _, TorpUi = ...
 
-local T_NeatPlates = TorpUi.AddOn:new({ profileString = TorpUi.PROFILE_STRINGS.NEAT_PLATES })
+local T_NeatPlates = TorpUi.AddOn:new({
+  name = "NeatPlates",
+  profileString = TorpUi.PROFILE_STRINGS.NEAT_PLATES
+})
 
 function T_NeatPlates:Apply()
   NeatPlatesHubMenus.ImportProfile(TorpUi.PROFILE_NAME, self.profileString)

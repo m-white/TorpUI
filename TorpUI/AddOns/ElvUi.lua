@@ -1,12 +1,11 @@
 local _, TorpUi = ...
 
-local T_ElvUi = TorpUi.AddOn:new({ profileString = TorpUi.PROFILE_STRINGS.ELV_UI })
+local T_ElvUi = TorpUi.AddOn:new({
+  name = "ElvUI",
+  profileString = TorpUi.PROFILE_STRINGS.ELV_UI
+})
 
 function T_ElvUi:Apply()
-  if (not ElvUI) then
-    return
-  end
-
   local E = unpack(ElvUI)
   local D = E:GetModule('Distributor')
   local _, _, elvUiProfileData = D:Decode(self.profileString)
