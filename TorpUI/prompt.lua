@@ -8,9 +8,15 @@ function frame:OnEvent(event, name)
     return
   end
 
+  if (TorpDb.versionApplied == TorpUi.VERSION) then
+    return
+  end
+
   for key, addOn in pairs(TorpUi.AddOns) do
     addOn:Prompt()
   end
+
+  TorpDb.versionApplied = TorpUi.VERSION
 end
 
 frame:SetScript("OnEvent", frame.OnEvent)
