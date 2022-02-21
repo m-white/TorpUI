@@ -8,7 +8,7 @@ function frame:OnEvent(event, name)
     return
   end
 
-  if (TorpDb.versionApplied == TorpUi.VERSION) then
+  if (TorpDb.versionApplied == TorpUi.VERSION and not TorpUi.IS_DEV) then
     return
   end
 
