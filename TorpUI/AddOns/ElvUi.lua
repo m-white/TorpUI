@@ -1,6 +1,6 @@
 local _, TorpUi = ...
 
-local T_ElvUi = TorpUi.AddOn:new{ profileString = TorpUi.PROFILE_STRINGS.ELV_UI }
+local T_ElvUi = TorpUi.AddOn:new({ profileString = TorpUi.PROFILE_STRINGS.ELV_UI })
 
 function T_ElvUi:Apply()
   local E = unpack(ElvUI)
