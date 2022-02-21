@@ -10,5 +10,6 @@ init.lua
 AddOns/AddOn.lua
 AddOns/Details.lua
 AddOns/ElvUi.lua
+AddOns/MRT.lua
 
 prompt.lua
