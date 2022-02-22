@@ -12,5 +12,6 @@ AddOns/Details.lua
 AddOns/ElvUi.lua
 AddOns/MRT.lua
 AddOns/NeatPlates.lua
+AddOns/OmniCd.lua
 
 prompt.lua
